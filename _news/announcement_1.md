@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2018-10-03
 inline: true
 ---
 
-A simple inline announcement.
+The ANR ScienceFriction project is funded! 18-month postdoc opening [here]({% link _pages/openings.md %})!

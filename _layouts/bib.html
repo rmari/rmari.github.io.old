@@ -16,39 +16,35 @@
     <span class="title">{{entry.title}}</span>
     <span class="author">
       {% for author in entry.author_array %}
-        {% unless forloop.last %}
-          {% if author.last == site.scholar.last_name %}
-            <em>{{author.last}}, {{author.first}}</em>,
-          {% else %}
-            {% if site.data.coauthors[author.last] %}
-              <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>,
-            {% else %}
-              {{author.last}}, {{author.first}},
-            {% endif %}
-          {% endif %}
-        {% else %}
+        {% if forloop.last %}
           and
-          {% if author.last == site.scholar.last_name %}
-            <em>{{author.last}}, {{author.first}}</em>
+        {% endif %}
+        {% if author.last == site.scholar.last_name %}
+          <em>{{author.last}}, {{author.first}}</em>,
+        {% else %}
+          {% if site.data.coauthors[author.last] %}
+            <a href="{{site.data.coauthors[author.last].url}}" target="_blank" style="color: #666">{{author.last}}, {{author.first}}</a>,
           {% else %}
-            {% if site.data.coauthors[author.last] %}
-              <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>
-            {% else %}
-              {{author.last}}, {{author.first}}
-            {% endif %}
+            {{author.last}}, {{author.first}},
           {% endif %}
-        {% endunless %}
+        {% endif %}
       {% endfor %}
     </span>
 
     <span class="periodical">
     {% if entry.type == "article" %}
       <em>{{entry.journal}}</em>
+      {% if entry.number %}
+        {{entry.volume}}({{entry.number}}),
+      {% else %}
+        {{entry.volume}},
+      {% endif %}
+    {{entry.pages}}
     {% elsif entry.type == "inproceedings" %}
       <em>In {{entry.booktitle}}</em>
     {% endif %}
     {% if entry.year %}
-      {{entry.year}}
+      ({{entry.year}})
     {% endif %}
     </span>
   {% endif %}
@@ -78,12 +74,15 @@
   {% if entry.code %}
     [<a href="{{ entry.code }}" target="_blank">Code</a>]
   {% endif %}
+  {% if entry.doi %}
+    [<a href="{{ entry.doi | prepend: 'https://doi.org/' }}" target="_blank" style="color: #94032e">Journal</a>]
+  {% endif %}
   </span>
 
   <!-- Hidden abstract block -->
-  {% if entry.abstract %}
-  <span class="abstract hidden">
-    <p>{{ entry.abstract }}</p>
-  </span>
-  {% endif %}
+  <!-- {% if entry.abstract %} -->
+  <!-- <span class="abstract hidden"> -->
+    <!-- <p>{{ entry.abstract }}</p> -->
+  <!-- </span> -->
+  <!-- {% endif %} -->
 </div>
