@@ -1,19 +1,14 @@
-- name: Congrès du Groupe Français de Rhéologie
-  url: https://2018.legfr.fr/
-  date: October 29-31 2018
-  loc: Brest, France 
+- name: Non-Newtonian Fluid Mechanics SIG meeting
+  url: https://fluids.ac.uk/sig/Non-Newtonian
+  date: Jan 7-8 2019
+  loc: Manchester, UK
 
-- name: GdR SLAMM
-  url: https://gdrslamm.sciencesconf.org/
-  date: November 12-15 2018
-  loc: Hyères, France 
+- name: Workshop RheoSuNN
+  url: https://rheosunn2019.sciencesconf.org/
+  date: March 27-28 2019
+  loc: Palaiseau, France
 
-- name: "Southern Workshop on Granular Materials"
-  url: https://swgm2018.wordpress.com/
-  date: December 3-6 2018
-  loc: Puerto Varas, Chile 
-
-- name: LINXS Workshop - Scattering and Dynamics of Flowing Soft Material
-  url: http://www.linxs.lu.se/events/2018/12/workshop-scattering-and-dynamics-of-flowing-soft-material
-  date: December 10-12 2018
-  loc: Lund, Sweden
+- name: Workshop on Interdisciplinary Topics in Non-Equilbrium Physics
+  url: https://indico.ph.ed.ac.uk/event/52/
+  date: April 10-13 2019
+  loc: Edinburgh, UK

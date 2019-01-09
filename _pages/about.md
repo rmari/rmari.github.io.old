@@ -9,10 +9,10 @@ profile:
   image: avatar.JPG
   address: >
     <p>LIPhy</p>
-    <p>Université Grenoble-Alpes</p>
-    <p>140 Avenue de la Physique</p>
-    <p> BP 87</p>
-    <p>38402 Saint Martin d'Hères</p>
+    <p>Univ. Grenoble-Alpes</p>
+    <p>140 Av. de la Physique</p>
+    <p>BP 87</p>
+    <p>38402 St Martin d'Hères</p>
     <p>France</p>
 news: true
 social: true
