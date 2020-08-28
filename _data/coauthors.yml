@@ -1,5 +1,5 @@
 Kurchan:
-  url: http://www.pmmh.espci.fr/~jorge/
+  url: https://scholar.google.fr/citations?user=18qQeMMAAAAJ&hl=fr
   firstname: Jorge
 
 Krzakala:
@@ -8,32 +8,30 @@ Krzakala:
 
 Ghosh:
   url: http://scholar.google.com/citations?user=edr1o6MAAAAJ&hl=en
-  info:
-    firstname: Antina
-    url: http://scholar.google.com/citations?user=edr1o6MAAAAJ&hl=en
+  firstname: Antina
 
 Chikkadi:
   url: http://scholar.google.com/citations?user=Xex6qvIAAAAJ&hl=en
   firstname: Vijayakumar
 
 Schall:
-  url: http://www.uva.nl/en/about-the-uva/organisation/staff-members/content/s/c/p.schall/p.schall.html
+  url: http://peterschall.de/
   firstname: Peter
 
 Bonn:
-  url: http://www.uva.nl/en/about-the-uva/organisation/staff-members/content/b/o/d.bonn/d.bonn.html
+  url: https://scholar.google.com/citations?user=Se4J4uoAAAAJ&hl=fr
   firstname: Daniel
 
 Maggs:
-  url: http://turner.pct.espci.fr/~acm/index2.html
+  url: https://turner.pct.espci.fr/~amaggs/index2.html
   firstname: Anthony
 
 Atman:
-  url: http://www.fisica.ufmg.br/~atman/
+  url: https://scholar.google.com/citations?user=di1vbtsAAAAJ&hl=en
   firstname: Allbens
 
 Claudin:
-  url: http://www.pmmh.espci.fr/~claudin/
+  url: https://scholar.google.fr/citations?user=fH9Xhi4AAAAJ&hl=fr
   firstname: Philippe
 
 Combe:
@@ -52,7 +50,7 @@ Bo:
   firstname: Lin
 
 Song:
-  url: http://www.as.miami.edu/physics/people/faculty/chaoming-song/
+  url: https://people.miami.edu/profile/c.song@miami.edu
   firstname: Chaoming
 
 Portal:
@@ -67,7 +65,7 @@ Seto:
   firstname: Ryohei
 
 Morris:
-  url: http://www-levich.engr.ccny.cuny.edu/~jmorris/
+  url: https://www-levich.engr.ccny.cuny.edu/~jmorris/
   firstname: Jeff
 
 Denn:
@@ -75,7 +73,7 @@ Denn:
   firstname: Morton
 
 Cates:
-  firtname: Mike
+  firstname: Mike
   url: http://www.damtp.cam.ac.uk/people/mec22/
 
 Fielding:
@@ -84,19 +82,19 @@ Fielding:
 
 Chacko:
   firstname: Rahul
-  url: https://www.dur.ac.uk/research/directory/staff/?mode=staff&id=14136
+  url: https://scholar.google.com/citations?user=SOYM1eUAAAAJ&hl=en
 
 Ness:
   firstname: Christopher
-  url: http://christopherness.co.uk/
+  url: https://christopherjness.github.io/
 
 Tjhung:
   firstname: Elsen
-  url: https://scholar.google.co.uk/citations?user=IpPNtcAAAAAJ&hl=en
+  url: https://elsentjhung.github.io/
 
 Nardini:
   firstname: Cesare
-  url: https://sites.google.com/site/cesarenardiniresearch/
+  url: https://scholar.google.fr/citations?user=F5AitakAAAAJ&hl=en
 
 Chakraborty:
   firstname: Bulbul
@@ -104,15 +102,15 @@ Chakraborty:
 
 Thomas:
   firstname: Jetin
-  url: https://www.brandeis.edu/departments/physics/chakraborty/members/thomasjetin.html
+  url: https://www.researchgate.net/profile/Jetin_E_Thomas
 
 Sarkar:
   firstname: Sumantra
-  url: https://sites.google.com/view/sumantra-sarkar/home
+  url: http://sumantrasarkar.site/
 
 Ramola:
   firstname: Kabir
-  url: https://www.brandeis.edu/departments/physics/chakraborty/members/ramola1.html
+  url: http://www.tifrh.res.in/~kramola/
 
 Singh:
   firstname: Abhinendra
@@ -125,3 +123,30 @@ Morone:
 Min:
   firstname: Byungjoon
   url: https://scholar.google.co.kr/citations?user=wrXRJjsAAAAJ&hl=en
+
+Metzger:
+  firstname: Bloen
+  url: https://bloenmetzger.wordpress.com/
+
+Forterre:
+  firstname: Yoel
+  url: https://yoelforterre.wordpress.com/
+
+Athani:
+  firstname: Shivakumar
+
+Del Gado:
+  firstname: Emanuela
+  url: https://physics.georgetown.edu/emanuela-delgado/
+
+Martens:
+  firstname: Kirsten
+  url: https://www-liphy.univ-grenoble-alpes.fr/pagesperso/martens/
+
+Bertin:
+  firstname: Eric
+  url: https://www-liphy.univ-grenoble-alpes.fr/pagesperso/bertin/
+
+Vasisht:
+  firstname: Vishwas
+  url: https://iitpkd.ac.in/people/vishwas
