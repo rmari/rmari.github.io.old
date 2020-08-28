@@ -16,7 +16,7 @@
     <span class="title">{{entry.title}}</span>
     <span class="author">
       {% for author in entry.author_array %}
-        {% if forloop.last %}
+        {% if forloop.last and forloop.first == false %}
           and
         {% endif %}
         {% if author.last == site.scholar.last_name %}
@@ -55,6 +55,9 @@
   {% endif %}
   {% if entry.arxiv %}
     [<a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>]
+  {% endif %}
+  {% if entry.hal %}
+    [<a href="https://hal.univ-grenoble-alpes.fr/hal-{{ entry.hal }}" target="_blank"  style="color: #6043ff">HAL</a>]
   {% endif %}
   {% if entry.html %}
     [<a href="{{ entry.html }}" target="_blank">HTML</a>]
